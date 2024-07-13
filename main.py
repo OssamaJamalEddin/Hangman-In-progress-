@@ -1,6 +1,6 @@
 import random
 import words
-# this re library is not used, we did this manually
+# this "re" library is not used, we did this manually
 import re
 
 
@@ -19,7 +19,7 @@ while game_status == "YES":
                             "5 -> Cars\n"
                             "Enter a number to choose: "))
     random_word = random.choice(list_dictionary[user_choice])
-    # a line of code that used ( re library ) to replace all letters to ( _ )
+    # a line of code that uses ( re library ) to replace all letters to ( _ )
     # Cyphered_random_word = re.sub(r'[a-zA-Z]', '_', random_word)
     # but im going to do this without library ->
     Cyphered_random_word = ""
